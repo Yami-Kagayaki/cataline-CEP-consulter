@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
+  background-image: url("road-by-julien-riedel-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  display: grid;
+  justify-content: center;
+  margin: 0 0;
+}
+
+h3 {
+  display: grid;
+  justify-content: center;
+  margin-top: 0;
+  color: #404040;
+}
+
+#app {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 1.5rem 0rem;
+  box-shadow: 2px 8px 11px black;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 2rem;
+  justify-items: center;
+}
+
+form input {
+  border: none;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 100;
+  width: 120px;
+  outline: none;
+  padding: 0;
+}
+
+form input::placeholder {
+  color: #969696;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 5rem;
+  background-color: royalblue;
+  cursor: pointer;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: 100;
+  border: none;
+  width: max-content;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  transition: all 1s;
+}
+
+p:nth-child(1) {
+  padding-top: 1.3rem;
+}
+
+p {
+  color: blacks;
+  font-size: 1.1rem;
+  margin: 0.6rem 0;
+}
