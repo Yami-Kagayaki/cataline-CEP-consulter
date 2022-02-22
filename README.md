@@ -6,7 +6,7 @@ Esse é o repositório para testar meus conhecimento em JavaScript. Consiste em 
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
-- [JS](hhttps://www.w3schools.com/js/)
+- [JS](https://www.w3schools.com/js/)
 - [AXIOS](https://github.com/axios/axios)
 - [MARKDOWN](https://www.markdownguide.org/)
 - [API-VIACEP](https://viacep.com.br/)
